@@ -8,11 +8,12 @@
 }
 
 .pagecard_title {
-    color: #868686;
+    color: #ffffff;
     font-size: 24px;
-    text-shadow: 0px 0px 12px #86868680;
+    text-shadow: 0px 0px 12px #ffffff80,
+                 0px 2px 0px #00000080;
     padding-left: 12px;
-    margin: 0 0 16px 0;
+    margin: 0 0 12px 0;
 }
 
 .pagecard {
@@ -33,13 +34,14 @@
     background-color: #111d2e;
     box-shadow: none;
     border: 8px solid #345495;
-    box-shadow: 0 0 8px #345495;
+    box-shadow: 0 0 8px #345495,
+                inset 0 0 16px #345495;
 }
 
 .pagecard_name {
     color: #ff8000;
     font-size: 24px;
-    text-shadow: 0 0 4px #ff800040;
+    text-shadow: 0 0 16px #ff800040;
     margin: 0;
 }
 
@@ -47,11 +49,12 @@
     color: #868686;
     font-size: 24px;
     font-weight: 400;
+    text-shadow: 0 0 16px #86868640;
     position: absolute;
     right: 28px;
 }
 
 .pagecard_description {
     color: #eeeeee;
-    text-shadow: 0 0 3px #86868640;
+    text-shadow: 0 0 16px #86868640;
 }
