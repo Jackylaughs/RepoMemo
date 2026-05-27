@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.map_container {
+    margin-bottom: 24px;
+}
+
+.map_name {
+    color: #ff9500;
+    font-size: 28px;
+    text-shadow: 0px 0px 12px #ff950080;
+    margin: 0;
+}
+
+section p {
+    color: #868686;
+}

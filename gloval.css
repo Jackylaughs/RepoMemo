@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* font */
+
+@font-face {
+    font-family: "rounded_mpuls_1p_bold";
+    src: url(/fonts/rounded-l-mplus-1p-bold.ttf);
+}
+
+body {
+    font-family: "rounded_mpuls_1p_bold", sans-serif;
+    color: #eeeeee;
+    background-color: #121212;
+}
+
+.text_en {
+    font-family: "Teko", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+}
+
+/* header */
+
+.repo_header {
+    display: flex;
+    position: fixed;
+    background-color: #ff9500;
+    width: 100dvw;
+    padding: 4px 16px 4px 8px;
+}
+
+.repo_title {
+    display: block;
+    color: #121212;
+    font-size: 28px;
+    text-decoration: none;
+    text-shadow: 0 2px 0 #12121280;
+    padding: 3px 8px 0px 8px;
+}
+
+/* main */
+
+.main_content {
+    padding: 69px 16px 16px 16px;
+}
+
+p {
+    color: #eeeeee;
+    font-size: 15px;
+    margin: 0;
+}
