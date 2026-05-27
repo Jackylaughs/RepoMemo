@@ -27,7 +27,7 @@ body {
     position: fixed;
     background-color: #ff8000;
     width: 100dvw;
-    padding: 4px 16px 4px 8px;
+    padding: 4px 16px 4px 16px;
 }
 
 .repo_title {
