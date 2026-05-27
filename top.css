@@ -1,1 +1,57 @@
 @charset "utf-8";
+
+.page_title {
+    color: #eeeeee;
+    font-size: 24px;
+    text-shadow: 0px 0px 12px #eeeeee80;
+    margin-bottom: 8px;
+}
+
+.pagecard_title {
+    color: #868686;
+    font-size: 24px;
+    text-shadow: 0px 0px 12px #86868680;
+    padding-left: 12px;
+    margin: 0 0 16px 0;
+}
+
+.pagecard {
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    /* width: 800px; */
+    padding: 8px 28px;
+    border: 8px solid #000000;
+    box-shadow: 0 0 8px #00000080;
+    margin-bottom: 16px;
+}
+
+.pagecard:hover {
+    background-color: #111d2e;
+    box-shadow: none;
+    border: 8px solid #345495;
+    box-shadow: 0 0 8px #345495;
+}
+
+.pagecard_name {
+    color: #ff8000;
+    font-size: 24px;
+    text-shadow: 0 0 4px #ff800040;
+    margin: 0;
+}
+
+.pagecard_date {
+    color: #868686;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 28px;
+}
+
+.pagecard_description {
+    color: #eeeeee;
+    text-shadow: 0 0 3px #86868640;
+}
