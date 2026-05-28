@@ -1,7 +1,33 @@
 @charset "utf-8";
 
 .map_container {
+    background-color: #000000;
+    padding: 0.5rem 1.75rem;
     margin-bottom: 24px;
+}
+
+.map_name_wrap {
+    background-size: auto 160px;
+    background-position: right 65%;
+    background-repeat: no-repeat;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.map_sa {
+    background-image: url(./images/title_academy.png);
+}
+
+.map_ms {
+    background-image: url(./images/title_station.png);
+}
+
+.map_hm {
+    background-image: url(./images/title_manor.png);
+}
+
+.map_ma {
+    background-image: url(./images/title_museum.png);
 }
 
 .map_name {
@@ -13,4 +39,15 @@
 
 section p {
     color: #868686;
+}
+
+.map_image {
+    position: relative;
+    width: 600px;
+}
+
+.map_shape {
+    position: absolute;
+    width: 300px;
+    left: 0;
 }

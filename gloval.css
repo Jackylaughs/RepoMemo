@@ -1,6 +1,28 @@
 @charset "utf-8";
 
+.scanlines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 9999; 
+
+    background-image: repeating-linear-gradient(
+        #ffffff20,
+        #80808020 3px,
+        #80808020 3px,
+        #ffffff20 8px
+    );
+    mix-blend-mode: overlay;
+}
+
 /* font */
+
+html {
+    font-size: 14px;
+}
 
 @font-face {
     font-family: "rounded_mpuls_1p_bold";
@@ -27,23 +49,23 @@ body {
     position: fixed;
     background-color: #ff8000;
     width: 100dvw;
-    padding: 4px 16px 4px 16px;
+    padding: 0.25rem 1rem;
 }
 
 .repo_title {
     display: block;
-    color: #121212;
-    font-size: 32px;
+    color: #000000;
+    font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
-    text-shadow: 0 2px 0 #12121280;
-    padding: 3px 8px 0px 8px;
+    text-shadow: 0 0.14rem 0 #00000080;
+    padding: 0.2rem 0.5rem 0 0.5rem;
 }
 
 /* main */
 
 .main_content {
-    padding: 69px 24px 16px 24px;
+    padding: 4.5rem 1.5rem 1rem 1.5rem;
 }
 
 h1 {
@@ -53,6 +75,14 @@ h1 {
 
 p {
     color: #eeeeee;
-    font-size: 15px;
+    font-size: 1rem;
     margin: 0;
+}
+
+/* smartphone */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 0.8em;
+    }
 }
