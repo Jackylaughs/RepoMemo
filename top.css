@@ -1,10 +1,21 @@
 @charset "utf-8";
 
-.page_title {
-    color: #eeeeee;
+.about {
+    background-color: #1458ca;
+    /* border: 1px solid #eeeeee; */
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.about_title {
+    /* color: #54ff73; */
     font-size: 1.5rem;
-    text-shadow: 0 0 0.75rem #eeeeee80;
+    text-shadow: 0 0 0.75rem #54ff7380;
     margin-bottom: 0.5rem;
+}
+
+.about_description {
+    text-shadow: 0 0 1rem #eeeeee40;
 }
 
 .pagecard_title {
@@ -23,7 +34,8 @@
     flex-direction: column;
     gap: 0.25rem;
     text-decoration: none;
-    padding: 0.5rem 1.75rem;
+    max-width: 800px;
+    padding: 0.75rem 1.75rem;
     border: 0.5rem solid #000000;
     box-shadow: 0 0 0.5rem #00000080;
     margin-bottom: 1rem;
