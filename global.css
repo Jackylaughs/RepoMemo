@@ -84,16 +84,34 @@ body {
 
 .mute_switch {
     background-color: #0000;
-    background-image: url(./images/volume_off.svg);
+    background-image: url(./images/volume_on.svg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     height: 32px;
     width: 32px;
-    padding: 1.75rem;
-    margin-right: 1.3rem;
+    padding: 1.5rem;
+    margin-right: 0.5rem;
+    border: 0.5rem solid #ff8000;
+}
 
-    border: 2px dotted #4080ff;
+.mute_switch:hover {
+    background-color: #eeeeee;
+    border: 0.5rem solid #345495;
+    box-shadow: 0 0 0.5rem #345495,
+                inset 0 0 1rem #345495;
+}
+
+.mute_switch.muted {
+    background-image: url(./images/volume_off.svg);
+}
+
+.menu_button {
+    background-color: #0000;
+    font-family: "rounded_mpuls_1p";
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
 }
 
 /* main */
