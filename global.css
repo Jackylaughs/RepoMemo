@@ -26,13 +26,13 @@ html {
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url(/fonts/rounded-l-mplus-1p-bold.ttf);
+    src: url("fonts/rounded-l-mplus-1p-bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url(/fonts/rounded-l-mplus-1p-medium.ttf);
+    src: url("fonts/rounded-l-mplus-1p-medium.ttf");
     font-weight: 500;
 }
 
