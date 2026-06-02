@@ -17,40 +17,91 @@
 
 <body>
     <div class="scanlines"></div>
-    <audio src="./audio/repo_click.mp3" id="repo_click"></audio>
-    <audio src="./audio/repo_hover.mp3" id="repo_hover"></audio>
+    <audio src="audio/repo_click.mp3" id="repo_click"></audio>
+    <audio src="audio/repo_hover.mp3" id="repo_hover"></audio>
     
     <header class="repo_header">
-        <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
-        <nav class="menu_contaner">
-            <button class="menu_button">敵</button>
-            <button class="menu_button">貴重品</button>
-            <button class="menu_button">マップ</button>
-            <button class="menu_button">スキン</button>
-        </nav>
-        <button class="mute_switch muted"></button>
+        <div class="header_wrap">
+            <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
+            <nav class="menu_contaner">
+                <button class="menu_button">敵</button>
+                <button class="menu_button">貴重品</button>
+                <button class="menu_button">マップ</button>
+                <button class="menu_button">スキン</button>
+            </nav>
+            <button class="mute_switch muted"></button>
+        </div>
     </header>
 
-    <div class="main_content">
-        <div class="about">
-            <h1 class="about_title">このサイトは何？</h1>
-            <p class="about_description"><span class="text_en">REPO</span>の納品場所を覚えるために拵えた個人的な備忘録。<br>
-            <span class="text_en">Web</span>コーディングの練習ついでに軽く検証したことをメモしただけなので、内容は信用しないでね
-            </p>
+    <div class="content_container">
+        <div class="main_content">
+            <div class="about">
+                <h1 class="about_title">このサイトは何？</h1>
+                <p class="about_description"><span class="text_en">REPO</span>の納品場所を覚えるために拵えた個人的な備忘録。<br>
+                <span class="text_en">Web</span>コーディングの練習ついでに軽く検証したことをメモしただけなので、内容は信用しないでね
+                </p>
+            </div>
+
+            <h2 class="pagecard_title">更新履歴</h2>
+            <a href="ExtractionPoint.html" class="pagecard">
+                <h2 class="pagecard_name">納品場所の形を覚えたい</h2>
+                <p class="pagecard_date text_en">2026-05-28</p>
+                <p class="pagecard_description">ここに説明が入るよう　あいうえお12345</p>
+            </a>
+
+            <a href="tips.html" class="pagecard">
+                <h2 class="pagecard_name text_en">tips</h2>
+                <p class="pagecard_date text_en">2026-05-29</p>
+                <p class="pagecard_description">ここに説明が入るよう　あいうえお12345</p>
+            </a>
+
+            <section class="pagecard">
+                <h2 class="pagecard_name">うおおおおおおおおおおおおお</h2>
+                <p class="pagecard_description">説明<br>
+                説明<br>
+                説明<br>
+                description <br>
+                description <br>
+                description</p>
+            </section>
+
+            <section class="pagecard">
+                <h2 class="pagecard_name">うおおおおおおおおおおおおお</h2>
+                <p class="pagecard_description">説明<br>
+                説明<br>
+                説明<br>
+                description <br>
+                description <br>
+                description</p>
+            </section>
+
+            <section class="pagecard">
+                <h2 class="pagecard_name">うおおおおおおおおおおおおお</h2>
+                <p class="pagecard_description">説明<br>
+                説明<br>
+                説明<br>
+                description <br>
+                description <br>
+                description</p>
+            </section>
         </div>
 
-        <h2 class="pagecard_title">更新履歴</h2>
-        <a href="ExtractionPoint.html" class="pagecard">
-            <h2 class="pagecard_name">納品場所の形を覚えたい</h2>
-            <p class="pagecard_date text_en">2026-05-28</p>
-            <p class="pagecard_description">ここに説明が入るよう　あいうえお12345</p>
-        </a>
+        <div class="sidebar">
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">カテゴリー別</h3>
+                <ul class="sidebar_list">
+                    <li>敵</li>
+                    <li>貴重品</li>
+                    <li>マップ</li>
+                    <li>コスメティック</li>
+                    <li>その他</li>
+                </ul>
+            </div>
 
-        <a href="tips.html" class="pagecard">
-            <h2 class="pagecard_name text_en">tips</h2>
-            <p class="pagecard_date text_en">2026-05-29</p>
-            <p class="pagecard_description">ここに説明が入るよう　あいうえお12345</p>
-        </a>
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">更新履歴</h3>
+            </div>
+        </div>
     </div>
 
     <script src="./global.js"></script>

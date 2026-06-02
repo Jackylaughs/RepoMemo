@@ -45,8 +45,8 @@ mute_button.addEventListener ("click", function() { // ミュートボタンを�
     click_sound.currentTime = 0;
     click_sound.play();
 
-    console.log (isMuted);
-    console.log (localStorage.getItem ("isMuted"));
+    console.log ("ミュート状態：" + isMuted);
+    console.log ("ローカルストレージ：" + localStorage.getItem ("isMuted"));
 });
 
 anchor.forEach (function (link) { // リンクにホバーした時
@@ -63,5 +63,3 @@ mute_button.addEventListener ("mouseenter", function() { // ミュートボタ�
 
 
 // 敵の体力　武器の威力　貴重品の重さ moonとかレベル
-
-// 敵　マップ　貴重品　スキン

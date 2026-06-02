@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* overlay */
+
 .scanlines {
     position: fixed;
     top: 0;
@@ -18,10 +20,34 @@
     mix-blend-mode: overlay;
 }
 
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1458ca;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #eeeeee;
+}
+
+::-webkit-scrollbar-corner {
+
+}
 /* font */
 
 html {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @font-face {
@@ -53,13 +79,20 @@ body {
 /* header */
 
 .repo_header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: #ff8000;
     width: 100dvw;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1108px;
+    margin: 0 auto;
 }
 
 .repo_title {
@@ -84,14 +117,14 @@ body {
 
 .mute_switch {
     background-color: #0000;
-    background-image: url(./images/volume_on.svg);
+    background-image: url(images/volume_on.svg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     height: 32px;
     width: 32px;
     padding: 1.5rem;
-    margin-right: 0.5rem;
+    /* margin-right: 0.5rem; */
     border: 0.5rem solid #ff8000;
 }
 
@@ -103,7 +136,7 @@ body {
 }
 
 .mute_switch.muted {
-    background-image: url(./images/volume_off.svg);
+    background-image: url(images/volume_off.svg);
 }
 
 .menu_button {
@@ -114,12 +147,59 @@ body {
     border: none;
 }
 
+/* content */
+
+.content_container {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    padding-top: 8rem;
+    margin: 0 auto;
+}
+
+/* sidebar */
+
+.sidebar {
+    position: sticky;
+    top: 8rem;
+    height: max-content;
+    width: 240px;
+}
+
+.sidebar_content {
+    background-color: #000000;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar_title {
+    color: #ff8000;
+    margin: 0 0 0.5rem 0;
+}
+
+.sidebar_list {
+    font-weight: 500;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar_list li {
+    padding: 0.25rem 0.5rem;
+}
+
+.sidebar_list li:hover {
+    background-color: #111d2e;
+    box-shadow: none;
+    outline: 0.4rem solid #345495;
+    box-shadow: 0 0 0.5rem #345495,
+                inset 0 0 1rem #345495;
+}
+
 /* main */
 
 .main_content {
-    max-width: 960px;
-    padding: 6rem 3rem 1rem 3rem;
-    margin: 0 auto 0 auto;
+    width: 840px;
 }
 
 h1 {
@@ -145,3 +225,5 @@ p {
         padding: 6rem 1.5rem 1rem 1.5rem;
     }
 }
+
+/* tablet */
