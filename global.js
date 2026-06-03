@@ -20,23 +20,22 @@ fetch ("common/sidebar.html") // サイドメニューの埋め込み
 
     const audios = document.querySelectorAll ("audio");
 
-    document.addEventListener ("DOMContentLoaded", function () { // ページを読み込んだ時
-        const storageMute = localStorage.getItem ("isMuted");
+    const storageMute = localStorage.getItem ("isMuted");
 
-        if (storageMute === "true") { // もしローカルストレージのmuteが真ならミュートにする
-            audios.forEach (function (audio) {
-                audio.volume = 0;
-            });
-        } else {
-            audios.forEach ( function (audio) {
-                audio.volume = 0.75;
-                mute_button.classList.remove ("muted");
-            });
-        }
+    if (storageMute === "true") { // もしローカルストレージのmuteが真ならミュートにする
+        audios.forEach (function (audio) {
+            audio.volume = 0;
+        });
+    } else {
+        audios.forEach ( function (audio) {
+            audio.volume = 0.75;
+            mute_button.classList.remove ("muted");
+        });
+    }
 
-        click_sound.currentTime = 0;
-        click_sound.play();
-    });
+    click_sound.currentTime = 0;
+    click_sound.play();
+
 
     mute_button.addEventListener ("click", function() { // ミュートボタンをクリックした時
         mute_button.classList.toggle ("muted");
