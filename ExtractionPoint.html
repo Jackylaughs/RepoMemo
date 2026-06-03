@@ -21,38 +21,67 @@
     <audio src="./audio/repo_hover.mp3" id="repo_hover"></audio>
 
     <header class="repo_header">
-        <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
-        <button class="mute_switch muted"></button>
+        <div class="header_wrap">
+            <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
+            <nav class="menu_contaner">
+                <button class="menu_button">敵</button>
+                <button class="menu_button">貴重品</button>
+                <button class="menu_button">武器</button>
+                <button class="menu_button">マップ</button>
+                <button class="menu_button">スキン</button>
+            </nav>
+            <button class="mute_switch muted"></button>
+        </div>
     </header>
 
-    <div class="main_content">
-        <section class="map_container">
-            <div class="map_name_wrap map_sa">
-                <h2 class="map_name text_en">SWIFTBROOM ACADEMY</h2>
-            </div>
-            
-            <p>ここに説明とかいろいろ入るよう　あいうえおかきくけこさしすせそあうあうあ</p>
-            <img src="./images/sa_image_01.png" alt="" class="map_image">
-            <img src="./images/sa_map_01.png" alt="" class="map_shape">
-        </section>
+    <div class="content_container">
+        <div class="main_content">
+            <section class="map_container">
+                <div class="map_name_wrap map_sa">
+                    <h2 class="map_name text_en">SWIFTBROOM ACADEMY</h2>
+                </div>
+                
+                <p>ここに説明とかいろいろ入るよう　あいうえおかきくけこさしすせそあうあうあ</p>
+                <img src="./images/sa_image_01.png" alt="" class="map_image">
+                <img src="./images/sa_map_01.png" alt="" class="map_shape">
+            </section>
 
-        <section class="map_container">
-            <div class="map_name_wrap map_ms">
-                <h2 class="map_name text_en">MCJANNEK STATION</h2>
-            </div>
-        </section>
+            <section class="map_container">
+                <div class="map_name_wrap map_ms">
+                    <h2 class="map_name text_en">MCJANNEK STATION</h2>
+                </div>
+            </section>
 
-        <section class="map_container">
-            <div class="map_name_wrap map_hm">
-                <h2 class="map_name text_en">HEADMAN MANOR</h2>
-            </div>
-        </section>
+            <section class="map_container">
+                <div class="map_name_wrap map_hm">
+                    <h2 class="map_name text_en">HEADMAN MANOR</h2>
+                </div>
+            </section>
 
-        <section class="map_container">
-            <div class="map_name_wrap map_ma">
-                <h2 class="map_name text_en">MUSEUM OF HUMAN ART</h2>
+            <section class="map_container">
+                <div class="map_name_wrap map_ma">
+                    <h2 class="map_name text_en">MUSEUM OF HUMAN ART</h2>
+                </div>
+            </section>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">カテゴリー別</h3>
+                <ul class="sidebar_list">
+                    <li>敵</li>
+                    <li>貴重品</li>
+                    <li>武器</li>
+                    <li>マップ</li>
+                    <li>コスメティック</li>
+                    <li>その他</li>
+                </ul>
             </div>
-        </section>
+
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">更新履歴</h3>
+            </div>
+        </div>
     </div>
 
     <script src="./global.js"></script>

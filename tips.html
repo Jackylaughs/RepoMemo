@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>メモ - M.E.M.O.</title>
+    <title>Tips - M.E.M.O.</title>
     <meta name="description" content="REPOで気になったことを書き殴る">
 
     <link rel="stylesheet" href="sanitize.css">
@@ -14,17 +14,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="scanlines"></div>
     <audio src="./audio/repo_click.mp3" id="repo_click"></audio>
     <audio src="./audio/repo_hover.mp3" id="repo_hover"></audio>
     
     <header class="repo_header">
-        <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
-        <button class="mute_switch muted"></button>
+        <div class="header_wrap">
+            <a href="index.html" class="repo_title text_en">M.E.M.O.</a>
+            <nav class="menu_contaner">
+                <button class="menu_button">敵</button>
+                <button class="menu_button">貴重品</button>
+                <button class="menu_button">武器</button>
+                <button class="menu_button">マップ</button>
+                <button class="menu_button">スキン</button>
+            </nav>
+            <button class="mute_switch muted"></button>
+        </div>
     </header>
 
-    <div class="main_content"></div>
+    <div class="content_container">
+        <div class="main_content"></div>
+
+        <div class="sidebar">
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">カテゴリー別</h3>
+                <ul class="sidebar_list">
+                    <li>敵</li>
+                    <li>貴重品</li>
+                    <li>武器</li>
+                    <li>マップ</li>
+                    <li>コスメティック</li>
+                    <li>その他</li>
+                </ul>
+            </div>
+
+            <div class="sidebar_content">
+                <h3 class="sidebar_title">更新履歴</h3>
+            </div>
+        </div>
+    </div>
 
     <script src="./global.js"></script>
 </body>

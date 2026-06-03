@@ -1,7 +1,10 @@
 @charset "utf-8";
 
-.map_container {
+.main_content {
     background-color: #000000;
+}
+
+.map_container {
     padding: 0.5rem 1.75rem;
     margin-bottom: 24px;
 }
@@ -47,7 +50,7 @@ section p {
 }
 
 .map_shape {
-    position: absolute;
+    /* position: absolute; */
     width: 300px;
-    left: 0;
+    left: 300px;
 }
