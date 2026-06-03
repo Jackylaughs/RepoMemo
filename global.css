@@ -186,13 +186,15 @@ p {
 
 .sidebar_content {
     background-color: #000000;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.4rem;
     margin-bottom: 1rem;
 }
 
 .sidebar_title {
     color: #ff8000;
+    font-size: 1.25rem;
     text-shadow: 0 0 1rem #ff800040;
+    padding-left: 0.3rem;
     margin: 0 0 0.5rem 0;
 }
 
@@ -203,7 +205,10 @@ p {
     margin: 0;
 }
 
-.sidebar_list li {
+.sidebar_list li a {
+    display: block;
+    color: #eeeeee;
+    text-decoration: none;
     padding: 0.25rem 0.5rem;
     text-shadow: 0 0 1rem #eeeeee40;
 }
