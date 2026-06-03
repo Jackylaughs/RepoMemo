@@ -18,19 +18,19 @@
 }
 
 .map_sa {
-    background-image: url(./images/title_academy.png);
+    background-image: url(../images/title_academy.png);
 }
 
 .map_ms {
-    background-image: url(./images/title_station.png);
+    background-image: url(../images/title_station.png);
 }
 
 .map_hm {
-    background-image: url(./images/title_manor.png);
+    background-image: url(../images/title_manor.png);
 }
 
 .map_ma {
-    background-image: url(./images/title_museum.png);
+    background-image: url(../images/title_museum.png);
 }
 
 .map_name {
