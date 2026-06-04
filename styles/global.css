@@ -45,17 +45,18 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url("../fonts/rounded-l-mplus-1p-bold.ttf");
+    src: url("/fonts/rounded-l-mplus-1p-bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url("../fonts/rounded-l-mplus-1p-medium.ttf");
+    src: url("/fonts/rounded-l-mplus-1p-medium.ttf");
     font-weight: 500;
 }
 
@@ -117,14 +118,13 @@ body {
 
 .mute_switch {
     background-color: #0000;
-    background-image: url(../images/volume_on.svg);
+    background-image: url(/images/volume_on.svg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     height: 32px;
     width: 32px;
     padding: 1.5rem;
-    /* margin-right: 0.5rem; */
     border: 0.5rem solid #ff8000;
 }
 
@@ -136,15 +136,7 @@ body {
 }
 
 .mute_switch.muted {
-    background-image: url(../images/volume_off.svg);
-}
-
-.menu_button {
-    background-color: #0000;
-    font-family: "rounded_mpuls_1p";
-    font-size: 1.2rem;
-    font-weight: 700;
-    border: none;
+    background-image: url(/images/volume_off.svg);
 }
 
 /* content */
@@ -153,17 +145,18 @@ body {
     display: flex;
     gap: 2rem;
     width: max-content;
-    padding-top: 8rem;
+    padding-top: 7rem;
     margin: 0 auto;
 }
 
 /* main */
 
 .main_content {
+    height: fit-content;
     width: 840px;
 }
 
-h1 {
+h1, h2, h3 {
     padding: 0;
     margin: 0;
 }
@@ -172,6 +165,7 @@ p {
     color: #eeeeee;
     font-size: 1rem;
     font-weight: 500;
+    text-shadow: 0 0 1rem #eeeeee40;
     margin: 0;
 }
 
@@ -179,7 +173,7 @@ p {
 
 .sidebar {
     position: sticky;
-    top: 8rem;
+    top: 7rem;
     height: max-content;
     width: 240px;
 }
@@ -215,7 +209,6 @@ p {
 
 .sidebar_list li:hover {
     background-color: #111d2e;
-    box-shadow: none;
     outline: 0.4rem solid #345495;
     box-shadow: 0 0 0.5rem #345495,
                 inset 0 0 1rem #345495;

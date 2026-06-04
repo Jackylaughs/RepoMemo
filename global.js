@@ -1,14 +1,14 @@
 Promise.all([
-fetch ("common/header.html") // ヘッダーの埋め込み
+fetch ("/common/header.html") // ヘッダーの埋め込み
     .then (common => common.text()),
 
-fetch ("common/sidebar.html") // サイドメニューの埋め込み
+fetch ("/common/sidebar.html") // サイドメニューの埋め込み
     .then (common => common.text()),
 ])
 
 .then(([fetch_header, fetch_sidebar]) => {
     document.querySelector (".repo_header").innerHTML = fetch_header;
-    document.querySelector (".sidebar").innerHTML = fetch_sidebar;
+    document.querySelector (".sidebar_fetch").innerHTML = fetch_sidebar;
 
     // Audio
 

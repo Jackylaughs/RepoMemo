@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コスメティック - M.E.M.O.</title>
+    <meta name="description" content="REPOで気になったことを書き殴る">
+
+    <link rel="stylesheet" href="/styles/sanitize.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/article.css">
+    <link rel="icon" href="/images/favicon.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="scanlines"></div>
+    <audio src="/audio/repo_click.mp3" id="repo_click"></audio>
+    <audio src="/audio/repo_hover.mp3" id="repo_hover"></audio>
+    
+    <header class="repo_header"></header>
+
+    <div class="content_container">
+        <main class="main_content">
+            <article class="article_wrap">
+                <h1 class="article_title">コスメティック一覧</h1>
+                <section class="article_section">
+                    <h2 class="section_title">コスメティックとは</h2>
+                    <p>マップに落ちている箱を拾うことで獲得できる、いわゆるスキン。</p>
+                    <p>レアリティが4段階に分かれていて、ランクが高いほど大きい箱になる。</p>
+                    <p>箱にはHPが設定されている。ぶつけたり攻撃が当たるとHPが減っていき、0になると爆発して消える。</p>
+                    <p>掴むと箱のHPを回復できる。</p>
+                </section>
+
+                <section class="article_section">
+                    <h2 id="head" class="section_title">head</h2>
+                </section>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <nav class="article_toc">
+                <h2>目次</h2>
+                <ol>
+                    <li><a href="#head" class="text_en">head</a></li>
+                    <li><a href="#body" class="text_en">body</a></li>
+                </ol>
+            </nav>
+
+            <div class="sidebar_fetch"></div>
+        </aside>
+    </div>
+
+    <script src="/global.js"></script>
+</body>
+</html>
