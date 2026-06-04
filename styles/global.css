@@ -74,6 +74,12 @@ body {
     letter-spacing: 0.04em;
 }
 
+/* cursor */
+
+*{
+    cursor: url("../images/cursor.svg") 3 3, auto;
+}
+
 /* header */
 
 .repo_header {

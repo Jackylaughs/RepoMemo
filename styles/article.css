@@ -27,6 +27,10 @@
     margin-top: -6rem;
 }
 
+.section_title.text_en {
+    font-size: 1.75rem;
+}
+
 /* sidebar */
 
 .article_toc {
