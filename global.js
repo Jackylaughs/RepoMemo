@@ -1,8 +1,8 @@
 Promise.all([
-fetch ("/common/header.html") // ヘッダーの埋め込み
+fetch ("common/header.html") // ヘッダーの埋め込み
     .then (common => common.text()),
 
-fetch ("/common/sidebar.html") // サイドメニューの埋め込み
+fetch ("common/sidebar.html") // サイドメニューの埋め込み
     .then (common => common.text()),
 ])
 

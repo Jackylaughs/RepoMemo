@@ -50,13 +50,13 @@ html {
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url("/fonts/rounded-l-mplus-1p-bold.ttf");
+    src: url("../fonts/rounded-l-mplus-1p-bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "rounded_mpuls_1p";
-    src: url("/fonts/rounded-l-mplus-1p-medium.ttf");
+    src: url("../fonts/rounded-l-mplus-1p-medium.ttf");
     font-weight: 500;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .mute_switch {
     background-color: #0000;
-    background-image: url(/images/volume_on.svg);
+    background-image: url(../images/volume_on.svg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body {
 }
 
 .mute_switch.muted {
-    background-image: url(/images/volume_off.svg);
+    background-image: url(../images/volume_off.svg);
 }
 
 /* content */
