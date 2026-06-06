@@ -12,12 +12,12 @@
     z-index: 9999; 
 
     background-image: repeating-linear-gradient(
-        #080808,
-        #080808 1px,
-        #000 2px,
-        #000 5px
+        #00000020,
+        #00000020 1px,
+        #0000 2px,
+        #0000 6px
     );
-    mix-blend-mode: screen;
+    mix-blend-mode: multiply;
 }
 
 /* scrollbar */
