@@ -16,8 +16,12 @@
     margin-bottom: 2rem;
 }
 
+.article_title .text_en {
+    line-height: 1;
+}
+
 .article_section {
-    margin-bottom: 100rem;
+    margin-bottom: 4rem;
 }
 
 .section_title {
