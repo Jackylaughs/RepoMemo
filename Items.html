@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>武器 - M.E.M.O.</title>
+    <title>アイテム - M.E.M.O.</title>
     <meta name="description" content="REPOで気になったことを書き殴る">
 
     <link rel="stylesheet" href="styles/sanitize.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/article.css">
+    <link rel="stylesheet" href="styles/items.css">
     <link rel="icon" href="images/favicon.svg" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +27,74 @@
     <div class="content_container">
         <main class="main_content"> <!-- main -->
             <article class="article_wrap">
-                
+                <h2 class="article_title">ショップで買えるアイテム一覧</h2>
+
+                <section class="article_section">
+                    <h2 id="weapon" class="section_title">武器</h2>
+
+                    <div class="tier_container">
+                        <div class="lev_wrap">
+                            <span class="tier_content"><h3 class="lev_name text_en">SS</h3></span>
+                            <span class="tier_content"><a href="#shotgun"><img src="images/items/gun_shotgun.webp" alt="shotgun"></a></span>
+                            <span class="tier_content"><a href="#hammer"><img src="images/items/melee_sledge_hammer.webp" alt="sledge hammer"></a></span>
+                            <span class="tier_content"><a href="#handgun"><img src="images/items/gun_handgun.webp" alt="handgun"></a></span>
+                        </div>
+
+                        <div class="lev_wrap">
+                            <span class="tier_content"><h3 class="lev_name text_en">S</h3></span>
+                            <span class="tier_content"><a href="#laser_gun"><img src="images/items/gun_laser.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#tranq_gun"><img src="images/items/gun_tranq.webp" alt=""></a></span>
+                            
+                        </div>
+
+                        <div class="lev_wrap">
+                            <span class="tier_content"><h3 class="lev_name text_en">A</h3></span>
+                            <span class="tier_content"><a href="#shock_grenade"><img src="images/items/grenade_shockwave.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#stun_grenade"><img src="images/items/grenade_stun.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#taped_grenade"><img src="images/items/grenade_duct_taped.webp" alt="duct taped grenade"></a></span>
+                            <span class="tier_content"><a href="#explosive_grenade"><img src="images/items/grenade_explosive.webp" alt="explosive grenade"></a></span>
+                            <span class="tier_content"><a href="#human_grenade"><img src="images/items/grenade_human.webp" alt="human grenade"></a></span>
+                            <span class="tier_content"><a href="#blower"><img src="images/items/leaf_blower.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#zero_gravity_staff"><img src="images/items/staff_zero_gravity.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#shock_gun"><img src="images/items/gun_shockwave.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#bat"><img src="images/items/melee_baseball_bat.webp" alt=""></a></span>
+                        </div>
+
+                        <div class="lev_wrap">
+                            <span class="tier_content"><h3 class="lev_name text_en">B</h3></span>
+                            <span class="tier_content"><a href="#pan"><img src="images/items/melee_frying_pan.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#inflatable"><img src="images/items/melee_inflatable_hammer.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#stun_gun"><img src="images/items/gun_stun.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#explosive_mine"><img src="images/items/mine_explosive.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#shock_mine"><img src="images/items/mine_shockwave.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#stun_mine"><img src="images/items/mine_stun.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#duck"><img src="images/items/rubber_duck.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#torque_staff"><img src="images/items/staff_torque.webp" alt=""></a></span>
+                            <span class="tier_content"><a href="#void_staff"><img src="images/items/staff_void.webp" alt="void stuff"></a></span>
+                            <span class="tier_content"><a href="#sword"><img src="images/items/melee_sword.webp" alt="sword"></a></span>
+                            <span class="tier_content"><a href="#stun_baton"><img src="images/items/melee_stun_baton.webp" alt="stun baton"></a></span>
+                            <span class="tier_content"><a href="#bucket"><img src="images/items/duck_bucket.webp" alt="bucket"></a></span>
+                        </div>
+                    </div>
+
+                    <h3 class="text_en">Shotgun</h3>
+                </section>
+
+                <section class="article_section">
+                    <h2 id="item" class="section_title">便利アイテム</h2>
+                </section>
             </article>
         </main>
 
         <aside class="sidebar">
+            <nav class="article_toc">
+                <h2>目次</h2>
+                <ol>
+                    <li><a href="#weapon" >武器</a></li>
+                    <li><a href="#item" >便利アイテム</a></li>
+                </ol>
+            </nav>
+
             <div class="sidebar_fetch"></div>
         </aside>
     </div>
