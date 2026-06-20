@@ -79,3 +79,5 @@ fetch ("common/sidebar.html") // サイドメニューの埋め込み
 
 
 // 敵の体力　武器の威力　貴重品の重さ moonとかレベル 各レベルの納品額
+
+console.log ("%cイヤ～ンエッチ！！見ないでぇ～～～ん♡", "color: #ff65ba; font-size: 24px; font-weight: 600;");
