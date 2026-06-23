@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-.text_en {
-    line-height: 0.8;
-}
-
 .main_content {
     background-color: #000000;
+}
+
+.main_content .text_en {
+    line-height: 0.8;
 }
 
 .article_wrap {
