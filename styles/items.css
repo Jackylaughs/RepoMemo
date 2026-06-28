@@ -119,3 +119,21 @@
 .toggle_content {
     font-weight: 400;
 }
+
+.cross_left {
+    background-color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    height: 22px;
+    transform: rotate(-45deg) translateY(4px) translateY(2px);
+    width: 3px;
+}
+
+.cross_right {
+    background-color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    height: 22px;
+    transform: rotate(45deg) translateY(2px) translateX(4px);
+    width: 3px;
+}
