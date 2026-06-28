@@ -105,3 +105,17 @@
     color: #1458ca;
     text-shadow: 0 0 1rem #1458ca40;
 }
+
+.toggle_summary {
+    background-color: transparent;
+    border: none;
+    color: #ff8000;
+    font-family: "rounded_mpuls_1p", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.toggle_content {
+    font-weight: 400;
+}
