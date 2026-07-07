@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 .main_content {
-    border: 2px dashed #aaa;
+    background-color: #000;
+    border: none;
     height: 720px;
     width: 1280px;
 }
