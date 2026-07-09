@@ -1,12 +1,21 @@
 @charset "utf-8";
 
+.text_en {
+    line-height: 1;
+}
+
+.content_container {
+    padding-top: 5rem;
+}
+
 .main_content {
     background-color: #000;
     border: none;
-    height: 720px;
     padding: 1rem;
     width: 1280px;
 }
+
+/* level */
 
 .level_container {
     border: 2px solid #1458ca;
@@ -19,8 +28,8 @@
 
 .level_wrap {
     box-sizing: content-box;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
     margin-top: 4px;
     padding: 0.4rem 1rem;
     text-align: center;
@@ -31,19 +40,105 @@
     background-color: transparent;
     border: 2px solid #1458ca;
     color: #808080;
-    height: 57px;
-    width: 57px;
+    height: 49px;
+    width: 49px;
 }
 
 .level_button:hover {
     background-color: #345495;
 }
 
+/* table */
+
 .master_table {
+    border: 3px solid #808080;
     border-collapse: collapse;
     width: 100%;
 }
 
 .master_table th, .master_table td {
     border: 1px solid #808080;
+    padding: 0.2rem 0.5rem;
+}
+
+.h_level {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    width: 10%;
+}
+
+.h_enemies {
+    width: 20%;
+}
+
+.h_ex_times {
+    width: 10%;
+}
+
+.h_ex_amount {
+    width: 20%;
+}
+
+.h_moon {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    width: 40%;
+}
+
+.level {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    text-align: end;
+}
+
+.enemies {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    text-align: center;
+}
+
+.ex_times {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    text-align: end;
+}
+
+.ex_amount {
+    font-family: "Teko", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    transform: translateY(2px);
+    text-align: center;
+}
+
+
+
+.moon_wrap {
+    padding: 1rem 0;
+}
+
+.moon_name {
+    color: #ff2020;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    transform: translateY(2px);
 }
