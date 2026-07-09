@@ -4,5 +4,46 @@
     background-color: #000;
     border: none;
     height: 720px;
+    padding: 1rem;
     width: 1280px;
+}
+
+.level_container {
+    border: 2px solid #1458ca;
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    width: fit-content;
+}
+
+.level_wrap {
+    box-sizing: content-box;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-top: 4px;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    width: 12rem;
+}
+
+.level_button {
+    background-color: transparent;
+    border: 2px solid #1458ca;
+    color: #808080;
+    height: 57px;
+    width: 57px;
+}
+
+.level_button:hover {
+    background-color: #345495;
+}
+
+.master_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.master_table th, .master_table td {
+    border: 1px solid #808080;
 }
