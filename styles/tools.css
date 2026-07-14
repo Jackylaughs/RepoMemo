@@ -48,6 +48,20 @@
     background-color: #345495;
 }
 
+.refresh {
+    height: 2rem;
+}
+
+.level_down {
+    height: 2rem;
+    transform: translateY(2px) rotate(180deg);
+}
+
+.level_up {
+    height: 2rem;
+    transform: translateY(-2px);
+}
+
 /* table */
 
 .master_table {
